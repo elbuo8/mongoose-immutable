@@ -1,6 +1,6 @@
 {
   "name": "mongoose-immutable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make immutable fields in Mongoose",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,26 @@
   "license": "MIT",
   "devDependencies": {
     "mongoose": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mongoose": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elbuo8/mongoose-immutable.git"
+  },
+  "keywords": [
+    "immutable",
+    "schema",
+    "mongoose",
+    "field",
+    "fields"
+  ],
+  "bugs": {
+    "url": "https://github.com/elbuo8/mongoose-immutable/issues"
+  },
+  "homepage": "https://github.com/elbuo8/mongoose-immutable"
 }
