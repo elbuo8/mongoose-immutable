@@ -1,0 +1,14 @@
+{
+  "name": "mongoose-immutable",
+  "version": "0.0.1",
+  "description": "Make immutable fields in Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "author": "Yamil Asusta @elbuo8",
+  "license": "MIT",
+  "devDependencies": {
+    "mongoose": "^4.0.2"
+  }
+}
