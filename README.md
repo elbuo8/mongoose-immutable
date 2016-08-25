@@ -11,6 +11,8 @@ npm install mongoose-immutable --save
 ### Example
 
 ```js
+var immutablePlugin = require('mongoose-immutable');
+
 var testSchema = new Schema({
   testField: {type: String, immutable: true},
   testDefaultField: {type: String, default: 'test', immutable: true}
